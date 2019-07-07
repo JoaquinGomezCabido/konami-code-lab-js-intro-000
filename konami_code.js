@@ -17,7 +17,7 @@ function init() {
   var check = document.querySelector('body')
 
   check.addEventListener('keydown', function(e) {
-    for(let a = 0, a < 10; a++) {
+    for(var a = 0, a < 10; a++) {
       if(e.key === codes[a]) {
         if(a === 9) {
           alert('Congratulations, you have unlocked the Konami Code!')
