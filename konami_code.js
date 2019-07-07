@@ -14,9 +14,21 @@ const codes = [
 function init() {
   // your code here
 
-  var code = document.body.addEventListener('keydown', check)
+  var check = document.querySelector('body')
 
-
+  check.addEventListener('keydown', function(e) {
+    for(let i = 0, i < 10; i++) {
+      if(e.key = codes[i]) {
+        if(i === 9) {
+          alert('Congratulations, you have unlocked the Konami Code!')
+        } else {
+          continue
+        }
+      } else {
+        break
+      }
+    }
+  })
 }
 
 init()
