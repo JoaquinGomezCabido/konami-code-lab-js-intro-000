@@ -14,11 +14,9 @@ const codes = [
 function init() {
   // your code here
 
-  var check = document.querySelector('body')
-
   let i = 0
 
-  check.addEventListener('keydown', function(e) {
+  document.body.addEventListener('keydown', (e) => {
 
     if(e.key == codes[i]) {
       i++
