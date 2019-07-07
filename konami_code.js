@@ -17,8 +17,8 @@ function init() {
   let i = 0
 
   document.body.addEventListener('keydown', (e) => {
-
-    if(e.key == codes[i]) {
+    var pressed = e.key
+    if(pressed == codes[i]) {
       i++
     } else {
       i = 0
