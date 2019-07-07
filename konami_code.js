@@ -22,11 +22,12 @@ function init() {
 
     if(e.key == codes[i]) {
       i++
-      if(i === 9) {
-        alert('Congratulations, you have unlocked the Konami Code!')
-      }
     } else {
       i = 0
+    }
+
+    if(i === 9) {
+      alert('Congratulations, you have unlocked the Konami Code!')
     }
 
     /*
