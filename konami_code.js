@@ -28,6 +28,7 @@ function init() {
 
     if(i === 9) {
       alert('Congratulations, you have unlocked the Konami Code!')
+      i = 0
     }
 
     /*
