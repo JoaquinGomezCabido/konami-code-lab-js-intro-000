@@ -24,7 +24,7 @@ function init() {
       i = 0
     }
 
-    if(i === 10) {
+    if(i == 10) {
       alert('Congratulations, you have unlocked the Konami Code!')
       i = 0
     }
